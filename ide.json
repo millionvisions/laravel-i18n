@@ -1,0 +1,17 @@
+{
+    "$schema": "https://laravel-ide.com/schema/laravel-ide-v2.json",
+    "blade": {
+        "directives": [
+            {
+                "name": "alternate",
+                "prefix": "<?php echo alternate_url(",
+                "suffix": "); ?>"
+            },
+            {
+                "name": "alternates",
+                "prefix": "<?php echo alternate_url(",
+                "suffix": "); ?>"
+            }
+        ]
+    }
+}

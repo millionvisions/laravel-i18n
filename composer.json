@@ -1,0 +1,67 @@
+{
+    "name": "millionvisions/laravel-i18n",
+    "description": "Internationalization for Laravel 9+",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/millionvisions/laravel-i18n/issues",
+        "source": "https://github.com/millionvisions/laravel-i18n"
+    },
+    "keywords": [
+        "laravel",
+        "i18n",
+        "internationalization"
+    ],
+    "authors": [
+        {
+            "name": "johninamillion",
+            "email": "john@millionvisions.de"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "illuminate/container": "^11.0|^10.0",
+        "illuminate/console": "^11.0|^10.0",
+        "illuminate/http": "^11.0|^10.0",
+        "illuminate/routing": "^11.0|^10.0",
+        "illuminate/support": "^11.0|^10.0"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "MillionVisions\\LaravelI18n\\": "src/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0|^8.0",
+        "pestphp/pest": "^2.36",
+        "pestphp/pest-plugin-laravel": "^2.4",
+        "phpstan/phpstan": "^2.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MillionVisions\\LaravelI18n\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.x-dev",
+            "dev-master": "0.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Spatie\\Permission\\PermissionServiceProvider"
+            ]
+        }
+    },
+    "version": "0.1.0"
+}

@@ -1,0 +1,177 @@
+<?php
+
+/*
+ | (c) copyright 2024 - MillionVisions
+ */
+
+namespace MillionVisions\LaravelI18n\Enums;
+
+/**
+ * ISO 639-1
+ *
+ * Enum representing ISO 639-1 language codes.
+ */
+enum ISO639_1: string
+{
+    case AB = 'ab';   // Abkhazian
+    case AA = 'aa';   // Afar
+    case AF = 'af';   // Afrikaans
+    case AK = 'ak';   // Akan
+    case SQ = 'sq';   // Albanian
+    case AM = 'am';   // Amharic
+    case AR = 'ar';   // Arabic
+    case AN = 'an';   // Aragonese
+    case HY = 'hy';   // Armenian
+    case AS = 'as';   // Assamese
+    case AV = 'av';   // Avaric
+    case AE = 'ae';   // Avestan
+    case AY = 'ay';   // Aymara
+    case AZ = 'az';   // Azerbaijani
+    case BM = 'bm';   // Bambara
+    case BA = 'ba';   // Bashkir
+    case EU = 'eu';   // Basque
+    case BE = 'be';   // Belarusian
+    case BN = 'bn';   // Bengali
+    case BH = 'bh';   // Bihari
+    case BI = 'bi';   // Bislama
+    case BS = 'bs';   // Bosnian
+    case BR = 'br';   // Breton
+    case BG = 'bg';   // Bulgarian
+    case CA = 'ca';   // Catalan
+    case CS = 'cs';   // Czech
+    case CH = 'ch';   // Chamorro
+    case CE = 'ce';   // Chechen
+    case NY = 'ny';   // Chichewa
+    case ZH = 'zh';   // Chinese
+    case CU = 'cu';   // Church Slavic
+    case CV = 'cv';   // Chuvash
+    case KW = 'kw';   // Cornish
+    case CO = 'co';   // Corsican
+    case CR = 'cr';   // Cree
+    case HR = 'hr';   // Croatian
+    case DA = 'da';   // Danish
+    case DV = 'dv';   // Divehi
+    case NL = 'nl';   // Dutch
+    case DZ = 'dz';   // Dzongkha
+    case EN = 'en';   // English
+    case EO = 'eo';   // Esperanto
+    case ET = 'et';   // Estonian
+    case EE = 'ee';   // Ewe
+    case FO = 'fo';   // Faroese
+    case FI = 'fi';   // Finnish
+    case FR = 'fr';   // French
+    case FF = 'ff';   // Fulah
+    case GL = 'gl';   // Galician
+    case KA = 'ka';   // Georgian
+    case DE = 'de';   // German
+    case EL = 'el';   // Greek
+    case GN = 'gn';   // Guarani
+    case GU = 'gu';   // Gujarati
+    case HT = 'ht';   // Haitian
+    case HA = 'ha';   // Hausa
+    case HE = 'he';   // Hebrew
+    case HI = 'hi';   // Hindi
+    case HO = 'ho';   // Hiri Motu
+    case HU = 'hu';   // Hungarian
+    case IA = 'ia';   // Interlingua
+    case ID = 'id';   // Indonesian
+    case IE = 'ie';   // Interlingue
+    case IG = 'ig';   // Igbo
+    case IK = 'ik';   // Inupiat
+    case IO = 'io';   // Ido
+    case IS = 'is';   // Icelandic
+    case IT = 'it';   // Italian
+    case IU = 'iu';   // Inuktitut
+    case JA = 'ja';   // Japanese
+    case JV = 'jv';   // Javanese
+    case KL = 'kl';   // Kalaallisut
+    case KN = 'kn';   // Kannada
+    case KR = 'kr';   // Kanuri
+    case KS = 'ks';   // Kashmiri
+    case KK = 'kk';   // Kazakh
+    case KM = 'km';   // Khmer
+    case KI = 'ki';   // Kikuyu
+    case RW = 'rw';   // Kinyarwanda
+    case KY = 'ky';   // Kyrgyz
+    case KV = 'kv';   // Komi
+    case KG = 'kg';   // Kongo
+    case KO = 'ko';   // Korean
+    case KQ = 'kq';   // Koyra Chiini
+    case KU = 'ku';   // Kurdish
+    case LO = 'lo';   // Lao
+    case LA = 'la';   // Latin
+    case LV = 'lv';   // Latvian
+    case LI = 'li';   // Limburgish
+    case LT = 'lt';   // Lithuanian
+    case LU = 'lu';   // Luxembourgish
+    case LB = 'lb';   // Letzeburgesch
+    case MK = 'mk';   // Macedonian
+    case MG = 'mg';   // Malagasy
+    case MS = 'ms';   // Malay
+    case ML = 'ml';   // Malayalam
+    case MT = 'mt';   // Maltese
+    case GV = 'gv';   // Manx
+    case MI = 'mi';   // Maori
+    case MR = 'mr';   // Marathi
+    case MO = 'mo';   // Moldavian
+    case MN = 'mn';   // Mongolian
+    case NA = 'na';   // Nauru
+    case NV = 'nv';   // Navajo
+    case NB = 'nb';   // Norwegian Bokmål
+    case NN = 'nn';   // Norwegian Nynorsk
+    case OC = 'oc';   // Occitan
+    case OJ = 'oj';   // Ojibwa
+    case OR = 'or';   // Oriya
+    case OM = 'om';   // Oromo
+    case OS = 'os';   // Ossetic
+    case PA = 'pa';   // Punjabi
+    case PI = 'pi';   // Pali
+    case PL = 'pl';   // Polish
+    case PS = 'ps';   // Pashto
+    case PT = 'pt';   // Portuguese
+    case QU = 'qu';   // Quechua
+    case RM = 'rm';   // Romansh
+    case RO = 'ro';   // Romanian
+    case RU = 'ru';   // Russian
+    case SA = 'sa';   // Sanskrit
+    case SC = 'sc';   // Sardinian
+    case SD = 'sd';   // Sindhi
+    case SE = 'se';   // Northern Sami
+    case SG = 'sg';   // Sango
+    case SI = 'si';   // Sinhalese
+    case SK = 'sk';   // Slovak
+    case SL = 'sl';   // Slovenian
+    case SO = 'so';   // Somali
+    case SR = 'sr';   // Serbian
+    case ST = 'st';   // Southern Sotho
+    case ES = 'es';   // Spanish
+    case SU = 'su';   // Sundanese
+    case SW = 'sw';   // Swahili
+    case TA = 'ta';   // Tamil
+    case TE = 'te';   // Telugu
+    case TG = 'tg';   // Tajik
+    case TH = 'th';   // Thai
+    case TI = 'ti';   // Tigrinya
+    case TK = 'tk';   // Turkmen
+    case TL = 'tl';   // Tagalog
+    case TN = 'tn';   // Tswana
+    case TO = 'to';   // Tonga
+    case TR = 'tr';   // Turkish
+    case TS = 'ts';   // Tsonga
+    case TT = 'tt';   // Tatar
+    case TW = 'tw';   // Twi
+    case UG = 'ug';   // Uighur
+    case UK = 'uk';   // Ukrainian
+    case UR = 'ur';   // Urdu
+    case UZ = 'uz';   // Uzbek
+    case VE = 've';   // Venda
+    case VI = 'vi';   // Vietnamese
+    case VO = 'vo';   // Volapük
+    case WA = 'wa';   // Walloon
+    case CY = 'cy';   // Welsh
+    case WO = 'wo';   // Wolof
+    case XH = 'xh';   // Xhosa
+    case YI = 'yi';   // Yiddish
+    case YO = 'yo';   // Yoruba
+    case ZU = 'zu';   // Zulu
+}
