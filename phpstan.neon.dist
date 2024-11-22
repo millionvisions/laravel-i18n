@@ -1,6 +1,6 @@
 parameters:
   paths:
-    - config
+    - stubs/config
     - src
 
-  level: 6
+  level: 1
