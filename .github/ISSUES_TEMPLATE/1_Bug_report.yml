@@ -1,0 +1,36 @@
+name: Bug Report
+description: "Report something that's broken."
+body:
+  - type: input
+    attributes:
+      label: Laravel-i18n Version
+      description: Provide the Laravel-i18n version that you are using.
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Laravel Version
+      description: Provide the Laravel version that you are using. [Please ensure it is still supported.](https://laravel.com/docs/releases#support-policy)
+      placeholder: 11.0.0
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: PHP Version
+      description: Provide the PHP version that you are using.
+      placeholder: 8.3.0
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Description
+      description: Provide a detailed description of the issue you are facing.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps To Reproduce
+      description: Provide detailed steps to reproduce your issue.`.
+    validations:
+      required: true
