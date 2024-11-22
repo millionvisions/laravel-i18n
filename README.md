@@ -2,7 +2,7 @@
 
 [![License: MIT](https://poser.pugx.org/laravel/framework/license.svg)](https://opensource.org/licenses/MIT)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/millionvisions/laravel-i18n.svg?style=flat-square)](https://packagist.org/packages/millionvisions/laravel-i18n)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/abagayev/laravel-migration-shortcuts/tests.yml)](https://github.com/millionvisions/laravel-i18n/actions)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/millionvisions/laravel-i18n/tests.yml)](https://github.com/millionvisions/laravel-i18n/actions)
 
 ## Overview
 
